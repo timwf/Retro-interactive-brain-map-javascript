@@ -1,0 +1,136 @@
+
+
+*{
+  font-family: 'Pridi', serif;
+      font-weight: 700;
+      COLOR: #5d5d5d;
+      LETTER-SPACING: 1PX;
+}
+
+
+
+body{
+  background-color: #fff1e6;
+      width: 100%;
+      overflow: hidden;
+      }
+
+//aspiring
+$aspiring: #b5b878;
+$domestic: #9b7894;
+$animal: #a7b2a2;
+$moral: #e1a458;
+$self-percieving: #e48765;
+$percertives: #f19593;
+$reflectives: #fbe584;
+
+
+.category{
+  padding: 20px;
+  text-align: center;
+}
+
+#title{
+  font-size: 14px;
+}
+
+#region{
+  margin-top: -6%;
+  font-size: 57px;
+}
+
+#subRegion{
+  margin-top: -60px;
+  font-size: 25px;
+}
+
+path{
+  stroke-width: 1.5px;
+      stroke: #fff1e6;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-left: -100px;
+}
+
+.svg-whole{
+
+  max-height: 525px;
+
+}
+
+.svg-container{
+    max-width: 375px;
+    padding: 25px;
+  width: 40%;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 2%;
+}
+
+.info-container{
+
+  max-width: 375px;
+  margin-top: 85px;
+  margin-bottom: 25px;
+  margin-left: 2%;
+  width: 40%;
+}
+
+.agreeableness, .human-nature, .comparativeness, .causality{
+  fill: $reflectives;
+  &:hover {
+    fill: lighten($reflectives, 10%);
+    cursor: pointer;
+  }
+}
+
+.bibativeness, .tune, .time, .locality, .eventuality, .calculation, .order, .color, .weight, .size, .individuality{
+  fill: $percertives;
+  &:hover {
+    fill: lighten($percertives, 10%);
+    cursor: pointer;
+  }
+}
+
+.firmness, .self-esteem, .approbativeness, .conscientiousness, .cautiousness, .sublimity{
+  fill: $aspiring;
+  &:hover {
+    fill: lighten($aspiring, 10%);
+    cursor: pointer;
+  }
+}
+
+.continuity, .freindship, .conjugality, .amativeness, .parental-love, .inhabitiveness{
+  fill: $domestic;
+  &:hover {
+    fill: lighten($domestic, 10%);
+    cursor: pointer;
+  }
+}
+
+.vitativeness, .combativeness, .secretiveness, .aquisitiveness, .destructiveness, .alimentiveness{
+  fill: $animal;
+  &:hover {
+    fill: lighten($animal, 10%);
+    cursor: pointer;
+  }
+}
+
+.veneration, .benevolence, .hope, .spirituality, .imitation{
+  fill: $moral;
+  &:hover {
+    fill: lighten($moral, 10%);
+    cursor: pointer;
+  }
+}
+
+.mindfullness, .mirthfulness, .ideality, .constructiveness{
+  fill: $self-percieving;
+  &:hover {
+    fill: lighten($self-percieving, 10%);
+    cursor: pointer;
+  }
+}
